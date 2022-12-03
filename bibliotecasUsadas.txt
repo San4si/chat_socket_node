@@ -1,0 +1,13 @@
+npm init -y
+
+Criando o servidor
+npm install express
+
+instalando a biblioteca do socket
+npm install socket.io
+
+tem que ter o socket no servidor e no cliente para fazer a comunicação
+
+
+
+

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Chat</title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="./sytle.css" />
+</head>
+<body>
+    
+    <div class="page" id="loginPage">
+        <h1>Qual o seu nome?</h1>
+        <input type="text" id="loginNameInput" />
+    </div>
+
+    <div class="page" id="chatPage">
+        <div class="chatArea">
+            <ul class="chatlist"></ul>
+            <ul class="userlist"></ul>
+        </div>
+        <div class="chatInput">
+            <input type="text" id="chatTextInput" placeholder="Digite uma mensagem (e aperte ENTER)" />
+        </div>
+    </div>
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="./main.js"></script>
+</body>
+</html>
